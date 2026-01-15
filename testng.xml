@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEm "https://testng.org//testng-1.0.dtd">
+<suite name = "Automation suite">
+    <test name = "Smoke Tests">
+        <groups>
+            <run>
+                <include name = "smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "testNG.GroupTesting"/>
+        </classes>
+    </test>
+    <test name = "Smoke Tests">
+        <groups>
+            <run>
+                <include name = "smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "testNG.GroupTesting"/>
+        </classes>
+    </test>
+</suite>
